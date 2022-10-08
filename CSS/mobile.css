@@ -1,0 +1,174 @@
+
+@media screen and (max-width: 400px){
+ 
+    html{
+        scroll-padding-top: var(--scroll-padding,50px);
+    }
+
+    .i1{
+        width: 4vw;
+    }
+
+    .para{
+        background-size: contain;
+    }
+
+    .para2{
+        margin-bottom: 5vw;
+    }
+    
+    .c1{
+        font-size: 4vw;
+        margin-top: 6vw;
+    }
+    
+    .c2{
+        font-size: 6vw;
+    }
+    
+    .c3{
+        font-size: 3.5vw;
+        overflow: hidden;
+        height: 5vw;
+        width: 40vw;
+    }
+    
+    @keyframes animate{
+        to{
+            margin-top: -5.7vw;
+            animation: animate infinite;
+        }
+    }
+    .btn1{
+        font-size: 2.7vw;
+        height: 6vw;
+        border-radius: 4vw;
+        margin-bottom: 6vw;
+    }
+    
+    nav{
+        display: none;
+    }
+
+    .menu{
+        background-color: darkslategray;
+        display: block;
+    }
+
+    .mnav{
+        display:none;
+    }
+
+    .ham{
+        padding: 2vw;
+        color: white;
+        margin-bottom: 2vw;
+    }
+
+    .ham:hover{
+        color: gold;
+    }
+
+    .mitem li:hover{
+    border-bottom:.7px solid white ;
+    width: 90%;
+    padding: 5px;
+    }
+    
+    .head_line{
+        font-size: 4vw;
+    }
+    
+    .fnt{
+        font-size: 3.3vw;
+    }
+    
+    .fnt2{
+        font-size: 3.5vw;
+    }
+    
+    .head{
+        font-size: 5vw;
+    }
+    
+    .edu3{
+        font-size: 3.5vw;
+    }
+    
+    .edu2{
+        font-size: 3.4vw;
+    }
+    
+    .head_line2{
+        font-size: 4vw;
+    }
+    
+    .blc{
+       display: flex;
+       flex-direction: column;
+    }
+    
+    .cd1{
+        width: 100%;
+    }
+
+    .para3{
+        height: 30vw;
+    }
+
+    .para4{
+        font-size: 4vw;
+    }
+
+    .para5{
+        padding-top: 3vw;
+    }
+
+    .head_line3{
+        font-size: 4vw;
+    }
+    
+    .fnt3{
+        font-size: 3.2vw;
+    }
+
+    .cont1{
+        height: 94vw;
+    }
+
+    .cont2{
+        height: 85vw;
+    }
+
+    .cont3{
+        width:38vw;
+        height: 85vw;
+    }
+
+
+
+    #inp1{
+        height: 5.5vw;
+        font-size: 3vw;
+        margin-top: 4vw;
+        margin-bottom: 4vw
+    }
+
+    #inp2{
+        height: 5.5vw;
+        font-size: 3vw;
+        margin-bottom: 5vw;
+    }
+
+    #form_message{
+        height: 30vw;
+        font-size: 3vw;
+        margin-bottom: 2vw;
+    }
+
+    #pvn{
+        font-size: 3.2vw;
+    }
+    
+    }
+    

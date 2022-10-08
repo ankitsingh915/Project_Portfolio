@@ -1,0 +1,341 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--scroll-padding,100px);
+}
+
+.para{
+    background-image: url(../Images/hans-peter-gauster-3y1zF4hIPCg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding-left: 5vw;
+}
+
+.para2{
+    padding-top: 1vw;
+}
+
+.c1{
+    color: whitesmoke;
+    font-size: 2.3vw;
+    margin-top: 10vw;
+}
+
+.c2{
+    color: whitesmoke;
+    font-size: 4vw;
+    font-weight: 700;
+    margin-bottom: 3vw;
+}
+
+.c3{
+    color:whitesmoke;
+    font-size: 2vw;
+    font-weight: bolder;
+    overflow: hidden;
+    height: 2.5vw;
+    width: 20vw;
+    margin-left: 1vw;
+}
+
+#p1{
+    margin-bottom: .5vw;
+    animation: animate 3s 1.5s both;
+}
+#p2{
+    margin-bottom: .5vw;
+    animation: animate 3s 3s both;
+}
+#p3{
+    animation: animate 2.5s 4.5s both;
+} 
+
+@keyframes animate{
+    to{
+        margin-top: -3.1vw;
+        animation: animate infinite;
+    }
+}
+
+.btn1{
+    border-radius: 2vw; 
+    border-color: white;
+    background-color:darkslategray;
+    color: whitesmoke;
+    font-size: 1.2vw;
+    margin-top: 3vw;
+    margin-bottom: 1.5vw;
+}
+
+.btn1:hover{
+    color:gold;
+}
+
+nav{
+    height: 6vw;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: darkslategray;
+    box-shadow: 0vw .5vw .5vw 0vw lightgray;
+    margin-bottom: 3vw;
+    position: sticky;
+    top: 0vw;
+    z-index: 10;
+}
+
+.menu{
+    display: none;
+    background-color: cadetblue;
+}
+
+nav ul{
+    display: flex;
+    align-items:center;
+    margin: 0vw;
+}
+
+#cname{
+    position: relative;
+    top: 0vw;
+    text-align: center;
+    color:whitesmoke;
+    animation-name:slide;
+    animation-duration: 0.5s;
+    display: none;
+}
+
+#cname1{
+    opacity:0.9;
+    font-size: 1.4vw;
+    font-weight: 600;
+}
+
+#cname2{
+    opacity:0.7;
+    font-size: 1.2vw;
+    letter-spacing: .1vw;
+}
+
+.list3{
+    padding-left: 3.2vw;
+    padding-right: 4vw;
+    font-size: 1.5vw;
+}
+
+.i2{
+    width:12vw ;
+    height: 12vw;
+    border: .5vw whitesmoke solid;
+    border-radius: 10vw;
+    position:relative;
+    top:0vw;
+}
+
+.hover:hover{
+    color: gold;
+    font-size: larger;
+}
+
+.hover{
+    text-decoration:none;
+    color: whitesmoke;
+}
+
+.bod{
+    padding: 2vw;
+}
+
+.head_line{
+    text-shadow: .2vw .3vw .3vw;
+    font-size: 2vw;
+}
+
+.head_line2{
+    font-size: 2vw;
+    color:brown;
+}
+
+.head_line3{
+    font-size: 2vw;
+    margin-bottom: 2vw;
+}
+
+.para3{
+    height: 25vw;
+    background-color: darkslategray;
+    margin-top: 3vw;
+}
+
+.para4{
+    text-align: center;
+    color: white;
+    padding-top: 6vw;
+    font-size: 3vw;
+}
+
+.para5{
+    padding-top: 8vw;
+}
+
+div a{
+    padding-left: 2vw;
+}
+
+.btn2{
+    margin-left: 45%;
+    margin-top: 4vw;  
+}
+
+.btn3{
+    width:30vw;
+}
+
+.i1{
+    width: 1.5vw;
+}
+
+.head{
+    font-weight: bolder;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    margin-left: 3vw;
+    font-size: 3vw;
+}
+
+.line{
+    border-bottom: .3vw solid darkslategray;
+    margin-bottom: 2vw;
+}
+
+.line2{
+    border-bottom: .3vw solid darkslategray;
+    width: 2vw;
+    margin-left: 3.7vw;
+}
+
+.fnt{
+    font-size: 1.2vw;
+}
+
+.fnt1{
+    margin-bottom: 2vw;
+}
+
+.fnt2{
+    font-size: 1.55vw;
+}
+
+.fnt3{
+    font-size: 1.2vw;
+    margin-top: 3vw;
+}
+
+.fnt4{
+    padding-top: 1vw;
+    padding-left: 1vw;
+}
+
+.fnt5{
+    font-size: 2vw;
+}
+
+.res{
+    color:darkorange;
+}
+
+li{
+    list-style-type: none;
+}
+
+.edu{
+    width: 3vw;
+}
+
+.edu2{
+    font-size: 1.5vw;
+}
+
+.edu3{
+    font-size: 1.7vw;
+}
+
+.edu4{
+    width: 1vw;
+}
+
+.mar{
+    margin-top: 2vw;
+}
+
+.mar2{
+    margin-top: 3vw;
+}
+
+.cont1{
+    background-color: aquamarine;
+    height: 50vw;
+    padding-top: 5vw;
+    padding-left: 5vw;
+    background-image: url(../Images/maps.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+}
+
+.cont2{
+    background-color: white;
+    padding: 3vw;
+    width: 40vw;
+}
+
+.cont3{
+    width: 30vw;
+    height: 42vw;
+    background-color: white;
+    margin-left: 10vw;
+    padding: 3vw;
+}
+
+.flx{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cd1{
+    width: 30%;
+}
+
+.clr{
+    background-color:ghostwhite;
+}
+
+
+
+#pvn{
+    font-size: 1.2vw;
+}
+
+#inp1{
+    width: 23vw;
+    font-size: 1.2vw;
+    margin-bottom: 1.7vw;
+}
+
+#inp2{
+    width: 23vw;
+    font-size: 1.2vw;
+    margin-bottom: 1.7vw;
+}
+
+#form_message{
+    width: 30vw;
+    font-size: 1.2vw;
+    margin-bottom: 1.7vw;
+}
+
+
+
+
+
+
