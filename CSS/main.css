@@ -4,7 +4,7 @@ html{
 }
 
 .para{
-    background-image: url(../Images/hans-peter-gauster-3y1zF4hIPCg-unsplash.jpg);
+    background-image: url(../Images/lightbulb-g6c162d286_1280.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -46,15 +46,31 @@ html{
     margin-bottom: .5vw;
     animation: animate 3s 3s both;
 }
-#p3{
-    animation: animate 2.5s 4.5s both;
-} 
+
 
 @keyframes animate{
     to{
         margin-top: -3.1vw;
         animation: animate infinite;
     }
+}
+
+.resume{
+    text-decoration: none;
+    color: white;
+}
+
+.resume:hover{
+    color:gold;
+}
+
+.resume2{
+    text-decoration: none;
+    color: gold;
+}
+
+.resume2:hover{
+    color: black;
 }
 
 .btn1{
@@ -177,7 +193,7 @@ nav ul{
     padding-top: 8vw;
 }
 
-div a{
+.nap{
     padding-left: 2vw;
 }
 

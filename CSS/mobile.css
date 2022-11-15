@@ -20,10 +20,12 @@
     .c1{
         font-size: 4vw;
         margin-top: 6vw;
+        color:white;
     }
     
     .c2{
         font-size: 6vw;
+        color:white;
     }
     
     .c3{
@@ -31,11 +33,12 @@
         overflow: hidden;
         height: 5vw;
         width: 40vw;
+        color:white;
     }
     
     @keyframes animate{
         to{
-            margin-top: -5.7vw;
+            margin-top: -5vw;
             animation: animate infinite;
         }
     }
@@ -90,6 +93,10 @@
     .head{
         font-size: 5vw;
     }
+
+    .edu{
+        width: 5vw;
+    }
     
     .edu3{
         font-size: 3.5vw;
@@ -97,6 +104,10 @@
     
     .edu2{
         font-size: 3.4vw;
+    }
+
+    .edu4{
+        width: 3.5vw;
     }
     
     .head_line2{
