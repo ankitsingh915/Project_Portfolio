@@ -180,6 +180,20 @@
     #pvn{
         font-size: 3.2vw;
     }
+
+    .pro_div{
+        position: absolute;
+        top: 120px;
+        left: 150px;
+    }
+
+    .cdhov:hover{
+    transform:none;
+}
+
+.cdhov{
+    font-size: 15px;
+}
     
     }
     

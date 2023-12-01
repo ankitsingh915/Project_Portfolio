@@ -106,7 +106,7 @@ nav{
 
 nav ul{
     display: flex;
-    align-items:center;
+    align-items:center; 
     margin: 0vw;
 }
 
@@ -116,7 +116,7 @@ nav ul{
     text-align: center;
     color:whitesmoke;
     animation-name:slide;
-    animation-duration: 0.5s;
+    /* animation-duration: 0.5s; */
     display: none;
 }
 
@@ -319,14 +319,51 @@ li{
 }
 
 .cd1{
-    width: 30%;
+    width: 30%;  
+}
+
+.cdhov{
+    height: 100%;
+    overflow: hidden;
+    background: linear-gradient(rgba(0,0,0,0.2), #ff004f);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 20px;
+}
+
+.cdhov a{
+    display: none;
+    text-decoration: none;
+    color: black;
+}
+
+.cdhov:hover a{
+    display: inline;
+}
+
+
+.cdhov:hover{
+    transform: scale(1.1);
+    height: 100%;
+}
+
+.pro_div{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+.btnEdit{
+    border: 2px solid rgb(157, 157, 117);
+    color: black;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: rgb(157, 157, 117);
 }
 
 .clr{
     background-color:ghostwhite;
 }
-
-
 
 #pvn{
     font-size: 1.2vw;

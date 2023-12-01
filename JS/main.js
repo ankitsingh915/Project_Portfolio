@@ -1,25 +1,3 @@
-// image hide
-
-window.onscroll = function()
-{
-    myFunction();
-}
-
-function myFunction(){
-    var naving = document.getElementById("jpg");
-    var navbar = document.getElementById("pnav");
-    var picky = navbar.offsetTop;
-
-    if(window.pageYOffset >= picky){
-        naving.style.display = "none";
-        document.getElementById("cname").style.display="block";
-    }
-    else{
-        naving.style.display = "block";
-        document.getElementById("cname").style.display="none";
-    }
-}
-
 
 // hamburger
 
@@ -37,3 +15,21 @@ function funct(){
 const navigationHeight = document.querySelector('.navi').offsetHeight;
 document.documentElement.style.setProperty('--scroll-padding',navigationHeight + "px");
 //offsetheight must be in last
+
+
+// jQuery for hide image
+
+$(document).ready(()=>{
+    $(window).scroll(()=>{
+        let scroll=$(window).scrollTop()
+      
+        if(scroll>500){
+          $("#jpg").hide()
+          $("#cname").show()
+        }
+        else{
+          $("#jpg").show()
+          $("#cname").hide()
+        }
+      }) 
+})

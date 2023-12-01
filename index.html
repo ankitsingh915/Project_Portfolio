@@ -21,10 +21,10 @@
      
       <div class="container-fluid">
         <div class="para2">
-          <a class="nap" href="https://www.facebook.com/ankitsingh915"><img class="i1" src="./Images/facebook.svg"></a>
-          <a class="nap" href="https://www.instagram.com/ankitsingh915/"><img class="i1" src="./Images/instagram.svg"></a>
-          <a class="nap" href="https://www.linkedin.com/in/ankit-singh-a5671b246/"><img class="i1" src="./Images/linkedin.svg"></a>
-          <a class="nap" href="https://twitter.com/ankitsingh915"><img class="i1" src="./Images/twitter.svg"></a>
+          <a class="nap" target="_blank" href="https://www.facebook.com/ankitsingh915"><img class="i1" src="./Images/facebook.svg"></a>
+          <a class="nap" target="_blank" href="https://www.instagram.com/ankitsingh915/"><img class="i1" src="./Images/instagram.svg"></a>
+          <a class="nap" target="_blank" href="https://www.linkedin.com/in/ankit-singh-a5671b246/"><img class="i1" src="./Images/linkedin.svg"></a>
+          <a class="nap" target="_blank" href="https://twitter.com/ankitsingh915"><img class="i1" src="./Images/twitter.svg"></a>
         </div>
         
          <h1 class="c1">Hello, I am</h1>
@@ -37,7 +37,9 @@
           
          </h1>
 
-         <button class="btn1"><a class="resume" href="./Images/Ankit resume.pdf" download="Ankit_CV">🖨Print Resume</a></button>
+         <button class="btn1">
+          <a class="resume" href="./Images/AnkitSingh_FSD.pdf" download="Ankit_CV">🖨Print Resume</a>
+        </button>
 
          <!-- Button trigger modal -->
         <button type="button" class=" btn1" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -109,7 +111,7 @@
             <li class="list3"><a class="hover" href="#about">About</a></li>
             <li class="list3"><a class="hover" href="#resume">Resume</a></li>
         
-            <div id="cenname">
+            <div>
               <img class="i2" id="jpg" src="./Images/Crop DP-remini-enhanced.jpg">
               <div id="cname">
                 <span id="cname1">Ankit singh</span><br>
@@ -135,7 +137,7 @@
             <div class="line"></div>
             <p class="card-text fnt">A Web Designer / Developer Located In Our Lovely Earth.
               I Design and Develop Websites and Web Applications by using Web Technologies such as HTML, CSS, BOOTSTRAP, and JAVASCRIPT & I have vast array of knowledge in many different Front End and Back End languages, Responsive Frameworks.</p>
-            <button type="button" id="pvn"  class="btn btn-outline-warning"><a class="resume2" href="./Images/Ankit resume.pdf" download="Ankit_CV">Download My CV</a></button>
+            <button type="button" id="pvn"  class="btn btn-outline-warning"><a class="resume2" href="./Images/AnkitSingh_FSD.pdf" download="Ankit_CV">Download My CV</a></button>
           </div>
         </div>
 
@@ -235,26 +237,32 @@
           <h1 id="projects" class="head"><span class="res">Projects</span></h1>
 
         <div class="flx blc">
-          <div class="card border-info mb-3 cd1" >
+          <div class="card border-info mb-3 cd1 cdhov" >
             <div class="card-header"><b class="head_line2"> Project Portfolio</b></div>
-            <div class="card-body p-4 clr">
-              <h5 class="card-title fnt2">Tools</h5>
-              
-                <ol class="fnt">
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>BOOTSTRAP</li>
-                </ol>
+              <div class="card-body p-4 clr">
+                <h5 class="card-title fnt2">Tools</h5>
+                
+                  <ol class="fnt">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>BOOTSTRAP</li>
+                  </ol>
 
-              <h5 class="fnt2">Discription</h5>
-              <p class="card-text fnt">
-              This website showcases my past projects & this typical portfolio contains description of skills (website design creativity and development skills) and services offered  
-              </p>
-            </div>
+                <h5 class="fnt2">Discription</h5>
+                <p class="card-text fnt">
+                This website showcases my past projects & this typical portfolio contains description of skills (website design creativity and development skills) and services offered  
+                </p>
+              </div>
           </div>
 
-          <div class="card border-info mb-3 cd1">
+          
+
+          <div class="card border-info mb-3 cd1 cdhov">
             <div class="card-header"><b class="head_line2">Project Multitasking</b></div>
+            <div class="pro_div">
+              <a href="https://ankitsingh915.github.io/Multitasking_project/" class="btnEdit" target="_blank">Visit us ➡️</a>
+              
+            </div>
             <div class="card-body p-4 clr">
               <h5 class="card-title fnt2">Tools</h5>
               
@@ -359,10 +367,10 @@
           <form class="cont4" action="https://formspree.io/f/mzbwaber" method="POST" >
             <div class="cont2">
               <h3 class="head_line3"><b> Send a Message </b></h3>
-              <input type="text"  id="inp1" placeholder="Your Name Please*">
-              <input type="email" name="Email" id="inp2" placeholder="Enter Your Email id*">
+              <input type="text" name="name" id="inp1" placeholder="Your Name Please*">
+              <input type="email" name="email" id="inp2" placeholder="Enter Your Email id*">
               <textarea name="message" id="form_message" placeholder="Message*" cols="30" rows="10"></textarea>
-              <button type="submit" class="btn btn-danger btn3" id="pvn" >Send Message</button>
+              <button type="submit" class="btn btn-danger btn3" id="pvn">Send Message</button>
             </div>
           </form>
 
@@ -380,13 +388,18 @@
               </li>
 
               <div class="para5">
-                <a class="nap" href="https://www.facebook.com/ankitsingh915"><img class="i1" src="./Images/facebook.svg"></a>
-          <a class="nap" href="https://www.instagram.com/ankitsingh915/"><img class="i1" src="./Images/instagram.svg"></a>
-          <a class="nap" href="https://www.linkedin.com/in/ankit-singh-a5671b246/"><img class="i1" src="./Images/linkedin.svg"></a>
-          <a class="nap" href="https://twitter.com/ankitsingh915"><img class="i1" src="./Images/twitter.svg"></a>
+                <a class="nap" target="_blank" href="https://www.facebook.com/ankitsingh915"><img class="i1" src="./Images/facebook.svg"></a>
+          <a class="nap" target="_blank" href="https://www.instagram.com/ankitsingh915/"><img class="i1" src="./Images/instagram.svg"></a>
+          <a class="nap" target="_blank" href="https://www.linkedin.com/in/ankit-singh-a5671b246/"><img class="i1" src="./Images/linkedin.svg"></a>
+          <a class="nap" target="_blank" href="https://twitter.com/ankitsingh915"><img class="i1" src="./Images/twitter.svg"></a>
               </div>
             </div>
         </div>
+
+
+  <!-- Jquery link -->
+  
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
 
   <!-- bootstrap link -->
